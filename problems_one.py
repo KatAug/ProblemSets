@@ -8,10 +8,11 @@ Example Output: [5, 4, 3, 2, 1]
 """
 
 
-def reverse_list(list):
-    # NOTE: This is not a completed problem!
-    return list
-
+def reverse_list(to_reverse):
+    reversed(to_reverse)    #just reverses
+    result = reversed(to_reverse)  #captures the reversed list
+    list_result = list(result) 
+    return(list_result)
 
 # Problem 2
 
