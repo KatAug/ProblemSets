@@ -11,7 +11,7 @@ Example Output: [5, 4, 3, 2, 1]
 def reverse_list(to_reverse):
     reversed(to_reverse)    #just reverses
     result = reversed(to_reverse)  #captures the reversed list
-    list_result = list(result) 
+    list_result = list(result) #puts the reversed list into a list 
     return(list_result)
 
 # Problem 2
@@ -26,11 +26,16 @@ Return the new list
 Example Input: [1, 2, 3, 4, 5], 3 
 Example Output: [4, 5]
 """
-
-
-def list_value_checker(list, number):
-    pass
-
+num_list = [1, 2, 3, 4, 5, 6]
+new_list = []
+i = 3
+def list_value_checker(num_list, i):
+    while i < len(num_list):
+        print(num_list[i])
+        i = i + 1
+        #return(new_list)
+    
+#result = list_value_checker(num_list, i)
 
 # Problem 3
 

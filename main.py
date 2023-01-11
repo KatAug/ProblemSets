@@ -6,3 +6,8 @@ import problems_one
 to_reverse = [1, 2, 3, 4, 5, 6]
 result = problems_one.reverse_list(to_reverse)
 print(result)
+
+num_list = [1, 2, 3, 4, 5, 6]
+i = 2
+result = problems_one.list_value_checker(num_list, i)
+
