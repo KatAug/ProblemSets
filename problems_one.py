@@ -27,15 +27,16 @@ Example Input: [1, 2, 3, 4, 5], 3
 Example Output: [4, 5]
 """
 num_list = [1, 2, 3, 4, 5, 6]
+i = 4
 new_list = []
-i = 3
 def list_value_checker(num_list, i):
     while i < len(num_list):
-        print(num_list[i])
+        result = (num_list[i])
         i = i + 1
-        #return(new_list)
-    
-#result = list_value_checker(num_list, i)
+        new_list.append(result)
+        print(new_list)
+
+#list_value_checker(num_list, i) 
 
 # Problem 3
 
@@ -48,11 +49,12 @@ If there is a matching name in both lists, return that name from the function
 Example Input: [“Nevin”, “David”, “Mike”], [“Brett”, “Mike”, “Dan"]
 Example Output: "Mike"
 """
-
-
+list_one = ["David", "Katrina", "Keisha", "Nick", "Jaxson"]
+list_two = ["Matthew", "Brianna", "Samantha", "Catherine", "Nick"]
 def list_value_comparison(list_one, list_two):
-    pass
+   pass 
 
+list_value_comparison(list_one, list_two)
 
 # Problem 4
 
